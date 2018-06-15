@@ -6,7 +6,7 @@
 </head>
 <body>
     <h1>
-        Select the type of Drink
+        Select the type of Module
     </h1>
 </body>
 </html>
