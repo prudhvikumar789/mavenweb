@@ -6,7 +6,7 @@
 </head>
 <body>
     <h1>
-        Select the type of Liquor
+        Select the type of Drink
     </h1>
 </body>
 </html>
