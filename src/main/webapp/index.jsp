@@ -6,7 +6,7 @@
 </head>
 <body>
     <h1>
-        Select the type of Cooldrink
+        Select the type of Cooldrink.
     </h1>
 </body>
 </html>
