@@ -26,16 +26,3 @@ steps:
     targetPath: '$(Pipeline.Workspace)'
     artifact: 'dummymaven'
     publishLocation: 'pipeline'
-
-- task: DownloadBuildArtifacts@1
-  inputs:
-    buildType: 'current'
-    downloadType: 'single'
-    artifactName: 'dummymaven'
-    downloadPath: '$(System.ArtifactsDirectory)'
-
-- task: DownloadPipelineArtifact@2
-  inputs:
-    buildType: 'current'
-    artifactName: 'dummymaven'
-    targetPath: '$(Pipeline.Workspace)'
